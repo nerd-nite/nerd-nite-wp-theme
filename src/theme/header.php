@@ -11,7 +11,7 @@
 
   <meta name="viewport" content="width=device-width">
   <link rel="stylesheet" href="<?php bloginfo('template_url')?>/boilerplate.css?ver=1.01">
-  <link rel="stylesheet" href="<?php bloginfo('template_url')?>/style.css?ver=1.02">
+  <link rel="stylesheet" href="<?php bloginfo('template_url')?>/style.css?ver=1.03">
  
 
   <script src="<?php bloginfo('template_url')?>/modernizr-2.5.3.min.js"></script>

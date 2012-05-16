@@ -120,6 +120,13 @@ div.clear {
     clear: both;
 }
 
+ul#sidebar-list * ul li{ 
+    list-style: none; 
+    list-style-image: none; 
+    margin: 0; 
+    padding: 0; 
+}
+
 
 /*====================
  * Navigation
