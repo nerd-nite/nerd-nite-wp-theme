@@ -1,0 +1,162 @@
+/*
+Theme Name: Nerd Nite 2012
+Theme URI: http://danrumney.co.uk
+Description: Nerd Nite 2012 WP Theme
+Author: Dan Rumney <dan@nerdnite.com>
+Author URI: http://danrumney.co.uk
+Version: 1.01
+*/
+
+body {
+    background-color: #ffffff;
+    color: #000000;
+    font-family: Courier,monospace;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+div#main {
+    float:left;
+    width: 74%;
+}
+
+div#sidebar {
+    float: left;
+    width: 26%;
+}
+
+
+
+div.post {
+    padding: 1em;
+    margin: 1em;
+}
+
+div.post h2 {
+    color:#000000;
+    font-family: Courier,monospace;
+    font-size: 24pt;
+    margin:0px;
+    
+}
+
+
+a,
+a:visited:visited,
+a:active:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+/*===================
+ *  Header styling
+ *===================*/
+
+header {
+    font-size: 10px;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+div#site-title {
+    float:left;
+}
+
+
+div#logo {
+    float:right;
+    height: 11em;
+}
+
+div#logo img {
+    height: 11em;
+}
+
+div#nerd-nite-text{
+    line-height: 8em;
+}
+
+div#nerd-nite-text h1{
+    font-size:10em;
+    color:#F5A519;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    margin: 0px;
+}
+
+div#city-name {
+    font-size:3em;
+    line-height:1em;
+    text-align: right;
+}
+
+/*===================
+ *  Sidebar styling
+ *===================*/
+ul#sidebar-list { 
+    list-style: none; 
+    list-style-image: none; 
+    margin: 0; 
+    padding: 0; 
+}
+
+li.widget {
+    padding: 0.5em;
+    margin: 0.5em;
+    border-bottom: solid thin black;
+}
+
+li.widget:last-of-type {
+    border-bottom: none;
+}
+
+h2.widgettitle {
+    margin: 0em;
+    margin-bottom: .25em;
+    text-align: center;
+    font-size: 1em;
+}
+
+div.clear {
+    clear: both;
+}
+
+
+/*====================
+ * Navigation
+ *===================
+ */
+nav ul{
+    width: 100%;
+    float: left;
+    margin-top: 1em;
+    padding: 0;
+    list-style: none;
+    background-color: black;
+    color: white; 
+}
+    
+nav ul li {
+    float: left;
+    width: 8em;
+    text-align:center; 
+}
+
+nav ul li:hover {
+    color: black;
+    background-color: #F5A519;
+}
+
+/*===================
+ *  Footer styling
+ *===================*/
+footer {
+    border-top: solid thin black;
+    background-color: #eeeeee;
+    color: #000000;
+    text-align: center;
+}
+
+footer a#rss-feed {
+    position: absolute;
+    left: 2em;
+}
