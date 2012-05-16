@@ -32,7 +32,7 @@
   <!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
     <header>
         <div id='site-title'>
-            <div id='nerd-nite-text'><h1>Nerd Nite</h1></div>
+            <div id='nerd-nite-text'><h1>Nerd Nite<span style="display: none;"> <?php echo $city_name  ?></span></h1></div>
             <div id='city-name'><?php echo $city_name  ?></div>
         </div>
         <div id='logo'><img src="<?php bloginfo('template_url')?>/images/glasses.jpg"></div>
