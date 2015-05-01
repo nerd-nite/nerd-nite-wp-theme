@@ -14,7 +14,7 @@
   <link rel="stylesheet" href="<?php bloginfo('template_url')?>/style.css?ver=1.03">
  
 
-  <script src="<?php bloginfo('template_url')?>/modernizr-2.5.3.min.js"></script>
+  <script src="<?php bloginfo('template_url')?>/bootstrap/bootstrap.min.js"></script>
   <?php 
   //error_reporting(E_ALL);
   //ini_set('display_errors', '1'); 
