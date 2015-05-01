@@ -9,18 +9,16 @@
   <title><?php bloginfo('name'); ?><?php the_title(' - ')?></title>
   <meta name="description" content="">
 
-  <meta name="viewport" content="width=device-width">
-  <link rel="stylesheet" href="<?php bloginfo('template_url')?>/boilerplate.css?ver=1.01">
-  <link rel="stylesheet" href="<?php bloginfo('template_url')?>/style.css?ver=1.03">
- 
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <script src="<?php bloginfo('template_url')?>/bootstrap/bootstrap.min.js"></script>
-  <?php 
-  //error_reporting(E_ALL);
-  //ini_set('display_errors', '1'); 
-  ?>
-  
-  <?php 
+  <link rel="stylesheet" href="<?php bloginfo('template_url')?>/bootstrap-3.3.4-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="<?php bloginfo('template_url')?>/style.css?ver=1.00">
+
+
+    <?php
+  error_reporting(E_ALL);
+  ini_set('display_errors', '1');
+
   $city_name = get_bloginfo('name');
   $city_name = preg_replace("/^\s*nerd nite\s*/i", "", $city_name) 
   ?>
@@ -29,7 +27,6 @@
   <?php wp_head() ?>
 </head>
 <body>
-  <!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
     <header>
         <div id='site-title'>
             <div id='nerd-nite-text'><h1>Nerd Nite<span style="display: none;"> <?php echo $city_name  ?></span></h1></div>
