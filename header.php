@@ -16,8 +16,10 @@
 
 
     <?php
-  error_reporting(E_ALL);
-  ini_set('display_errors', '1');
+  /*
+    error_reporting(E_ALL);
+    ini_set('display_errors', '1');
+  */
 
   $city_name = get_bloginfo('name');
   $city_name = preg_replace("/^\s*nerd nite\s*/i", "", $city_name) 
